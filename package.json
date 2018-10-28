@@ -1,0 +1,27 @@
+{
+  "name": "hermione-virtualbox",
+  "version": "1.0.0",
+  "description": "Hermione plugin for lounch VirtualBox.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruslankhh/hermione-virtualbox.git"
+  },
+  "keywords": [
+    "hermione",
+    "hermione-plugin",
+    "virtualbox"
+  ],
+  "author": "Ruslan Khusnetdinov <ruslankhh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruslankhh/hermione-virtualbox/issues"
+  },
+  "homepage": "https://github.com/ruslankhh/hermione-virtualbox#readme",
+  "dependencies": {
+    "virtualbox": "^0.1.3"
+  }
+}
