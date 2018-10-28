@@ -1,2 +1,2 @@
 # hermione-virtualbox
-Hermione plugin for Interacting with VirtualBox.
+Hermione plugin for lounch VirtualBox.
