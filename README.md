@@ -28,7 +28,6 @@ npm i -D hermione-virtualbox
         gridUrl: 'http://127.0.0.1:<PORT>/wd/hub',
         plugins: {
             'hermione-virtualbox': {
-                enabled: true,
                 vm: 'Machine Name'
             }
         },
@@ -42,7 +41,10 @@ npm i -D hermione-virtualbox
 
 ## Options
 
-- `vm` — virtual machine name.
+| Option | Default | Description |
+| `vm` | | Virtual machine name. |
+| `vmStartTimeout` | `5000` | Timeout for start system. |
+| `vmStopAfterEnd` | `true` | Stop virtual machine after `RUNNER_END` hermione event. |
 
 ## Licence
 
