@@ -1,6 +1,6 @@
 {
   "name": "hermione-virtualbox",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Hermione plugin for lounch VirtualBox.",
   "main": "index.js",
   "scripts": {
