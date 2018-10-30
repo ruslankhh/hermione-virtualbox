@@ -40,9 +40,10 @@ npm i -D hermione-virtualbox
 ## Options
 
 | Option | Default | Description |
+| --- | --- | --- |
 | `vm` | | Virtual machine name. |
 | `vmStartTimeout` | `5000` | Timeout for start system. |
-| `vmStopAfterEnd` | `true` | Stop virtual machine after `RUNNER_END` hermione event. |
+| `vmStopAfterEnd` | `true` | Stop virtual machine after hermione event `RUNNER_END`. |
 
 ## Licence
 
