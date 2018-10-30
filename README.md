@@ -32,9 +32,7 @@ npm i -D hermione-virtualbox
             }
         },
         system: {
-            mochaOpts: {
-                timeout: 9999999
-            }
+            mochaOpts: { timeout: 0 }
         }
     }
     ```
